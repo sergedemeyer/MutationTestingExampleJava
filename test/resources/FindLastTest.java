@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class FindLastTest {
 
-    int data[] = {1, 2, 42, 42, 63};
+    int[] data = {1, 2, 42, 42, 63};
 
     @Test
     void testNoOccurrence() {
@@ -25,7 +25,6 @@ class FindLastTest {
     void testOccurrenceOnBoundary() {
         assertEquals(0, FindLast.findLast(data, 1));
     }
-
 
 
 }

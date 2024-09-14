@@ -20,5 +20,13 @@ public class FindLast {
         return -1;
     }
 
+    public final static int findLastMutated(int[] x, int y) {
+        if (x.length == 0) return -1;
+        for (int i = x.length - 1; i >= 0; i--) {
+            if (x[i] == y) return i;
+        }
+        return -1;
+    }
+
 }
 

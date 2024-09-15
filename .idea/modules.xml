@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/FindLast.iml" filepath="$PROJECT_DIR$/FindLast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MutationTestingExampleJava.iml" filepath="$PROJECT_DIR$/MutationTestingExampleJava.iml" />
     </modules>
   </component>
 </project>

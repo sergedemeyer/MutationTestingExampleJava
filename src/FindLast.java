@@ -21,7 +21,9 @@ public class FindLast {
     }
 
     public final static int findLastMutated(int[] x, int y) {
-        if (x.length == 0) return -1;
+//        if (x.length == 0) return -1;
+//        if (x.length <= 0) return -1; // changed conditional boundary --> EQUIVALENT
+        if (false) return -1; // removed conditional - replaced equality check with false
         for (int i = x.length - 1; i >= 0; i--) {
             if (x[i] == y) return i;
         }

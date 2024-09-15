@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a815461d-1c14-419f-87b4-7bc12ef68160" name="Changes" comment="Changed to module" />
+    <list default="true" id="a815461d-1c14-419f-87b4-7bc12ef68160" name="Changes" comment="Changed to module">
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/PITestCalculator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/PITestFindLastAll.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/PITestLeapYear.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/default/FindLast.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/default/FindLast.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/mutations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/report/mutations.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,12 +47,17 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
-    "JUnit.All in MutationTestingExampleJava.executor": "Coverage",
+    "JUnit.All in MutationTestingExampleJava.executor": "Run",
     "JUnit.CalculatorTest.executor": "Coverage",
     "JUnit.CoursesTutorial in MutationTestingExampleJava.executor": "Coverage",
-    "JUnit.FindLastTest.executor": "Coverage",
+    "JUnit.FindLastTest.executor": "Run",
     "JUnit.LeapYearTest.executor": "Coverage",
+    "PIT Runner.PITestCalculator.executor": "Run",
+    "PIT Runner.PITestFindLastAll.executor": "Run",
+    "PIT Runner.PITestLeapYear.executor": "Run",
+    "PIT Runner.Unnamed.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -61,7 +74,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in MutationTestingExampleJava">
+  <component name="RunManager" selected="PIT Runner.PITestCoursesTutorial">
     <configuration name="All in MutationTestingExampleJava" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MutationTestingExampleJava" />
       <option name="PACKAGE_NAME" value="" />
@@ -103,6 +116,7 @@
       <module name="MutationTestingExampleJava" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FindLastTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,11 +131,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.All in MutationTestingExampleJava" />
+      <item itemvalue="JUnit.CalculatorTest" />
+      <item itemvalue="JUnit.CoursesTutorial in MutationTestingExampleJava" />
+      <item itemvalue="JUnit.FindLastTest" />
+      <item itemvalue="JUnit.LeapYearTest" />
+      <item itemvalue="PIT Runner.PITestLeapYear" />
+      <item itemvalue="PIT Runner.PITestCalculator" />
+      <item itemvalue="PIT Runner.PITestCoursesTutorial" />
+      <item itemvalue="PIT Runner.PITestFindLastAll" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FindLastTest" />
         <item itemvalue="JUnit.All in MutationTestingExampleJava" />
         <item itemvalue="JUnit.LeapYearTest" />
-        <item itemvalue="JUnit.FindLastTest" />
         <item itemvalue="JUnit.CoursesTutorial in MutationTestingExampleJava" />
         <item itemvalue="JUnit.CalculatorTest" />
       </list>
@@ -145,7 +170,7 @@
       <updated>1726416039879</updated>
       <workItem from="1726416041182" duration="36000" />
       <workItem from="1726416124290" duration="54000" />
-      <workItem from="1726416245500" duration="1013000" />
+      <workItem from="1726416245500" duration="2543000" />
     </task>
     <task id="LOCAL-00001" summary="Renamed project">
       <option name="closed" value="true" />
@@ -171,7 +196,31 @@
       <option name="project" value="LOCAL" />
       <updated>1726417999860</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Changed to module">
+      <option name="closed" value="true" />
+      <created>1726425494867</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726425494867</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Changed to module">
+      <option name="closed" value="true" />
+      <created>1726425604127</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1726425604127</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Changed to module">
+      <option name="closed" value="true" />
+      <created>1726425672311</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1726425672311</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

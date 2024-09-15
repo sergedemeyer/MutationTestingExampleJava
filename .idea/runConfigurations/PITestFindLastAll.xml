@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="PITestFindLastAll" type="PIT" factoryName="PIT Runner" REPORT_DIR="$PROJECT_DIR$/report" SOURCE_DIRS="$PROJECT_DIR$/src" TARGET_CLASSES="FindLast" TARGET_TESTS="FindLastTest" otherParams="--outputFormats XML,HTML --verbose --mutators ALL">
+    <module name="MutationTestingExampleJava" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

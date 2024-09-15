@@ -18,5 +18,13 @@ public class Main {
             System.out.print("Find " + i + ": ");
             System.out.println(FindLast.findLast(data2, i));
         }
+
+        int[] years = {2000, 2100, 1984, 1987};
+        System.out.println("years = " + Arrays.toString(years));
+        for (int i : years) {
+            System.out.print("isLeapYear " + i + ": ");
+            System.out.println(LeapYear.isLeapYear(i));
+        }
+
     }
 }

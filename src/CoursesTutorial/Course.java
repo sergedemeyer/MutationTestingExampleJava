@@ -20,7 +20,9 @@ public class Course {
 
     public boolean addStudent(Student student) {
         //If capacity not full, add Person and return true if successful
-        return students.size() < MAX_STUDENTS && students.add(student);
+        if (students.size() >= MAX_STUDENTS) return false;
+        students.add(student);
+        return true;
     }
 
     public void setMAX_STUDENTS(int MAX_STUDENTS) throws IllegalArgumentException {

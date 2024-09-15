@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a815461d-1c14-419f-87b4-7bc12ef68160" name="Changes" comment="Changed to module">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/PITestCalculator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/PITestFindLastAll.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/PITestLeapYear.xml" afterDir="false" />
+    <list default="true" id="a815461d-1c14-419f-87b4-7bc12ef68160" name="Changes" comment="Updated gitgnore">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/default/FindLast.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/default/FindLast.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/mutations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/report/mutations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MutationTestingExampleJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MutationTestingExampleJava.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +49,7 @@
     "JUnit.FindLastTest.executor": "Run",
     "JUnit.LeapYearTest.executor": "Coverage",
     "PIT Runner.PITestCalculator.executor": "Run",
+    "PIT Runner.PITestCoursesTutorial.executor": "Run",
     "PIT Runner.PITestFindLastAll.executor": "Run",
     "PIT Runner.PITestLeapYear.executor": "Run",
     "PIT Runner.Unnamed.executor": "Run",
@@ -170,7 +167,7 @@
       <updated>1726416039879</updated>
       <workItem from="1726416041182" duration="36000" />
       <workItem from="1726416124290" duration="54000" />
-      <workItem from="1726416245500" duration="2543000" />
+      <workItem from="1726416245500" duration="2930000" />
     </task>
     <task id="LOCAL-00001" summary="Renamed project">
       <option name="closed" value="true" />
@@ -220,7 +217,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726425672311</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added configurations for PITest">
+      <option name="closed" value="true" />
+      <created>1726427117868</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1726427117868</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Updated gitgnore">
+      <option name="closed" value="true" />
+      <created>1726427234232</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1726427234232</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,7 +243,9 @@
     <MESSAGE value="Renamed project" />
     <MESSAGE value="Added Calculator" />
     <MESSAGE value="Changed to module" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed to module" />
+    <MESSAGE value="Added configurations for PITest" />
+    <MESSAGE value="Updated gitgnore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated gitgnore" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MutationTestingExampleJava$CalculatorTest.ic" NAME="CalculatorTest Coverage Results" MODIFIED="1726418088994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">

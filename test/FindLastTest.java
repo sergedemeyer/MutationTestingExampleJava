@@ -29,7 +29,6 @@ class FindLastTest {
     }
 
 
-
     @Test
     void testNoOccurrenceMutated() {
         assertEquals(-1, FindLast.findLastMutated(data, 99));

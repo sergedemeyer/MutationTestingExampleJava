@@ -4,15 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a815461d-1c14-419f-87b4-7bc12ef68160" name="Changes" comment="Updated gitgnore">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="a815461d-1c14-419f-87b4-7bc12ef68160" name="Changes" comment="Updated gitignore again">
+      <change afterPath="$PROJECT_DIR$/src/BinSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/BinSearchTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MutationTestingExampleJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MutationTestingExampleJava.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/default/LeapYear.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/default/LeapYear.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/default/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/default/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/mutations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/report/mutations.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,8 +39,11 @@
     &quot;accountId&quot;: &quot;efc5037e-cad5-4366-8fdc-dee4cecb673f&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/test/BinSearchTest.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -43,11 +56,26 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "JUnit.All in MutationTestingExampleJava (1).executor": "Run",
     "JUnit.All in MutationTestingExampleJava.executor": "Run",
-    "JUnit.CalculatorTest.executor": "Coverage",
-    "JUnit.CoursesTutorial in MutationTestingExampleJava.executor": "Coverage",
+    "JUnit.BinSearchTest.executor": "Run",
+    "JUnit.BinSearchTest.testDoubleOccurrence.executor": "Run",
+    "JUnit.BinSearchTest.testHalfway.executor": "Run",
+    "JUnit.BinSearchTest.testHalfwayLef.executor": "Run",
+    "JUnit.BinSearchTest.testLongData.executor": "Run",
+    "JUnit.BinSearchTest.testMutant1.executor": "Run",
+    "JUnit.BinSearchTest.testNoOccurrence.executor": "Run",
+    "JUnit.BinSearchTest.testPath1.executor": "Run",
+    "JUnit.BinSearchTest.testPath2.executor": "Run",
+    "JUnit.BinSearchTest.testPath3.executor": "Run",
+    "JUnit.BinSearchTest.testPath4.executor": "Run",
+    "JUnit.CalculatorTest.executor": "Run",
+    "JUnit.CoursesTutorial in MutationTestingExampleJava.executor": "Run",
     "JUnit.FindLastTest.executor": "Run",
-    "JUnit.LeapYearTest.executor": "Coverage",
+    "JUnit.LeapYearTest.executor": "Run",
+    "JUnit.StudentTest.executor": "Run",
+    "PIT Runner.PITestBinSeacrh.executor": "Run",
+    "PIT Runner.PITestBinSearch.executor": "Run",
     "PIT Runner.PITestCalculator.executor": "Run",
     "PIT Runner.PITestCoursesTutorial.executor": "Run",
     "PIT Runner.PITestFindLastAll.executor": "Run",
@@ -55,6 +83,8 @@
     "PIT Runner.Unnamed.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -67,73 +97,80 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/test" />
       <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/test" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="PIT Runner.PITestCoursesTutorial">
-    <configuration name="All in MutationTestingExampleJava" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="PIT Runner.PITestBinSearch">
+    <configuration name="BinSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MutationTestingExampleJava" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MutationTestingExampleJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CalculatorTutorial.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="CalculatorTutorial" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTutorial.CalculatorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CoursesTutorial in MutationTestingExampleJava" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MutationTestingExampleJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CoursesTutorial.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="CoursesTutorial" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindLastTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MutationTestingExampleJava" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FindLastTest" />
+      <option name="MAIN_CLASS_NAME" value="BinSearchTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeapYearTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BinSearchTest.testMutant1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MutationTestingExampleJava" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LeapYearTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="BinSearchTest" />
+      <option name="METHOD_NAME" value="testMutant1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinSearchTest.testPath2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MutationTestingExampleJava" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BinSearchTest" />
+      <option name="METHOD_NAME" value="testPath2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinSearchTest.testPath3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MutationTestingExampleJava" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BinSearchTest" />
+      <option name="METHOD_NAME" value="testPath3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinSearchTest.testPath4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MutationTestingExampleJava" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BinSearchTest" />
+      <option name="METHOD_NAME" value="testPath4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PITestBinSearch" type="PIT" factoryName="PIT Runner" REPORT_DIR="$PROJECT_DIR$/report" SOURCE_DIRS="$PROJECT_DIR$/src" TARGET_CLASSES="BinSearch" TARGET_TESTS="BinSearchTest" otherParams="--outputFormats XML,HTML --verbose">
+      <module name="MutationTestingExampleJava" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.All in MutationTestingExampleJava" />
-      <item itemvalue="JUnit.CalculatorTest" />
-      <item itemvalue="JUnit.CoursesTutorial in MutationTestingExampleJava" />
-      <item itemvalue="JUnit.FindLastTest" />
-      <item itemvalue="JUnit.LeapYearTest" />
+      <item itemvalue="JUnit.BinSearchTest.testMutant1" />
+      <item itemvalue="JUnit.BinSearchTest.testPath2" />
+      <item itemvalue="JUnit.BinSearchTest.testPath3" />
+      <item itemvalue="JUnit.BinSearchTest.testPath4" />
+      <item itemvalue="JUnit.BinSearchTest" />
+      <item itemvalue="PIT Runner.PITestBinSearch" />
       <item itemvalue="PIT Runner.PITestLeapYear" />
       <item itemvalue="PIT Runner.PITestCalculator" />
       <item itemvalue="PIT Runner.PITestCoursesTutorial" />
@@ -141,11 +178,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FindLastTest" />
-        <item itemvalue="JUnit.All in MutationTestingExampleJava" />
-        <item itemvalue="JUnit.LeapYearTest" />
-        <item itemvalue="JUnit.CoursesTutorial in MutationTestingExampleJava" />
-        <item itemvalue="JUnit.CalculatorTest" />
+        <item itemvalue="JUnit.BinSearchTest.testMutant1" />
+        <item itemvalue="JUnit.BinSearchTest" />
+        <item itemvalue="JUnit.BinSearchTest.testPath4" />
+        <item itemvalue="JUnit.BinSearchTest.testPath3" />
+        <item itemvalue="JUnit.BinSearchTest.testPath2" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +204,9 @@
       <updated>1726416039879</updated>
       <workItem from="1726416041182" duration="36000" />
       <workItem from="1726416124290" duration="54000" />
-      <workItem from="1726416245500" duration="2930000" />
+      <workItem from="1726416245500" duration="3039000" />
+      <workItem from="1726476371417" duration="3254000" />
+      <workItem from="1726483200623" duration="1278000" />
     </task>
     <task id="LOCAL-00001" summary="Renamed project">
       <option name="closed" value="true" />
@@ -233,7 +272,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726427234232</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Updated gitignore again">
+      <option name="closed" value="true" />
+      <created>1726427383690</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1726427383690</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,7 +292,8 @@
     <MESSAGE value="Changed to module" />
     <MESSAGE value="Added configurations for PITest" />
     <MESSAGE value="Updated gitgnore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated gitgnore" />
+    <MESSAGE value="Updated gitignore again" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated gitignore again" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MutationTestingExampleJava$CalculatorTest.ic" NAME="CalculatorTest Coverage Results" MODIFIED="1726418088994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">

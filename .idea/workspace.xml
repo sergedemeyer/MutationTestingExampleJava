@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a815461d-1c14-419f-87b4-7bc12ef68160" name="Changes" comment="Changed tests for border conditions of under and above 18">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/PITestBinSearch.xml" afterDir="false" />
+    <list default="true" id="a815461d-1c14-419f-87b4-7bc12ef68160" name="Changes" comment="Added selection sort example">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/report/default/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/default/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/report/mutations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/report/mutations.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/BinSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/BinSearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/SelectionSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/SelectionSortTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="JUnit5 Test Class" />
       </list>
     </option>
@@ -73,6 +73,10 @@
     "JUnit.CoursesTutorial in MutationTestingExampleJava.executor": "Run",
     "JUnit.FindLastTest.executor": "Run",
     "JUnit.LeapYearTest.executor": "Run",
+    "JUnit.SelectionSortTest.executor": "Run",
+    "JUnit.SelectionSortTest.testDoubles.executor": "Run",
+    "JUnit.SelectionSortTest.testReverseSorted.executor": "Run",
+    "JUnit.SelectionSortTest.testSorted.executor": "Run",
     "JUnit.StudentTest.executor": "Coverage",
     "JUnit.StudentTest.isAbove18TestBorder.executor": "Run",
     "JUnit.StudentTest.isUnder18TestBorder.executor": "Run",
@@ -82,6 +86,7 @@
     "PIT Runner.PITestCoursesTutorial.executor": "Run",
     "PIT Runner.PITestFindLastAll.executor": "Run",
     "PIT Runner.PITestLeapYear.executor": "Run",
+    "PIT Runner.PITestSelectionSort.executor": "Run",
     "PIT Runner.Unnamed.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -109,7 +114,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="PIT Runner.PITestBinSearch">
+  <component name="RunManager" selected="PIT Runner.PITestSelectionSort">
     <configuration name="BinSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MutationTestingExampleJava" />
       <option name="PACKAGE_NAME" value="" />
@@ -120,74 +125,58 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CoursesTutorial in MutationTestingExampleJava" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SelectionSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MutationTestingExampleJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CoursesTutorial.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="CoursesTutorial" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StudentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MutationTestingExampleJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CoursesTutorial.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="CoursesTutorial" />
-      <option name="MAIN_CLASS_NAME" value="CoursesTutorial.StudentTest" />
-      <option name="METHOD_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SelectionSortTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentTest.isAbove18TestBorder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SelectionSortTest.testDoubles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MutationTestingExampleJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CoursesTutorial.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="CoursesTutorial" />
-      <option name="MAIN_CLASS_NAME" value="CoursesTutorial.StudentTest" />
-      <option name="METHOD_NAME" value="isAbove18TestBorder" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SelectionSortTest" />
+      <option name="METHOD_NAME" value="testDoubles" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentTest.isUnder18TestBorder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SelectionSortTest.testReverseSorted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MutationTestingExampleJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CoursesTutorial.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="CoursesTutorial" />
-      <option name="MAIN_CLASS_NAME" value="CoursesTutorial.StudentTest" />
-      <option name="METHOD_NAME" value="isUnder18TestBorder" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SelectionSortTest" />
+      <option name="METHOD_NAME" value="testReverseSorted" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectionSortTest.testSorted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MutationTestingExampleJava" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SelectionSortTest" />
+      <option name="METHOD_NAME" value="testSorted" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PITestSelectionSort" type="PIT" factoryName="PIT Runner" REPORT_DIR="$PROJECT_DIR$/report" SOURCE_DIRS="$PROJECT_DIR$/src" TARGET_CLASSES="SelectionSort" TARGET_TESTS="SelectionSortTest" otherParams="--outputFormats XML,HTML">
+      <module name="MutationTestingExampleJava" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.StudentTest.isAbove18TestBorder" />
-      <item itemvalue="JUnit.StudentTest.isUnder18TestBorder" />
-      <item itemvalue="JUnit.CoursesTutorial in MutationTestingExampleJava" />
-      <item itemvalue="JUnit.StudentTest" />
+      <item itemvalue="JUnit.SelectionSortTest.testDoubles" />
+      <item itemvalue="JUnit.SelectionSortTest.testReverseSorted" />
+      <item itemvalue="JUnit.SelectionSortTest" />
+      <item itemvalue="JUnit.SelectionSortTest.testSorted" />
       <item itemvalue="JUnit.BinSearchTest" />
+      <item itemvalue="PIT Runner.PITestSelectionSort" />
       <item itemvalue="PIT Runner.PITestBinSearch" />
       <item itemvalue="PIT Runner.PITestLeapYear" />
       <item itemvalue="PIT Runner.PITestCalculator" />
@@ -196,11 +185,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SelectionSortTest" />
+        <item itemvalue="JUnit.SelectionSortTest.testDoubles" />
+        <item itemvalue="JUnit.SelectionSortTest.testReverseSorted" />
+        <item itemvalue="JUnit.SelectionSortTest.testSorted" />
         <item itemvalue="JUnit.BinSearchTest" />
-        <item itemvalue="JUnit.StudentTest" />
-        <item itemvalue="JUnit.StudentTest.isUnder18TestBorder" />
-        <item itemvalue="JUnit.StudentTest.isAbove18TestBorder" />
-        <item itemvalue="JUnit.CoursesTutorial in MutationTestingExampleJava" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +213,8 @@
       <workItem from="1726416124290" duration="54000" />
       <workItem from="1726416245500" duration="3039000" />
       <workItem from="1726476371417" duration="3254000" />
-      <workItem from="1726483200623" duration="5654000" />
+      <workItem from="1726483200623" duration="5901000" />
+      <workItem from="1726490835998" duration="2605000" />
     </task>
     <task id="LOCAL-00001" summary="Renamed project">
       <option name="closed" value="true" />
@@ -314,7 +304,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726488367894</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added the non recursive version of binsearch">
+      <option name="closed" value="true" />
+      <created>1726489909077</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1726489909077</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Added selection sort example">
+      <option name="closed" value="true" />
+      <created>1726491651339</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1726491651339</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,7 +335,9 @@
     <MESSAGE value="Updated gitignore again" />
     <MESSAGE value="Added binSearchR example" />
     <MESSAGE value="Changed tests for border conditions of under and above 18" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed tests for border conditions of under and above 18" />
+    <MESSAGE value="Added the non recursive version of binsearch" />
+    <MESSAGE value="Added selection sort example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added selection sort example" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MutationTestingExampleJava$CalculatorTest.ic" NAME="CalculatorTest Coverage Results" MODIFIED="1726418088994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">

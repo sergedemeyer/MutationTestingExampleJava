@@ -5,12 +5,11 @@ public class SelectionSort {
       ensures true;
       assignable \everything;
     */
-    public static int[] sort(int[] a){
+    public static void sort(int[] a){
         for(int i = 0; i < a.length; i++){
             int m = min(a,i);
             swap(a,m,i);
         }
-        return a;
     }
 
     /*@

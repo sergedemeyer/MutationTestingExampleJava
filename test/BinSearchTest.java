@@ -8,29 +8,56 @@ class BinSearchTest {
     int[] onecell = {1};
 
     @Test
-    void testPath1  () {
+    void testPath1R  () {
         assertEquals(-1, BinSearch.binSearchR(emptydata, 99, 1, 0));
     }
 
     @Test
-    void testPath2  () {
+    void testPath2R  () {
         assertEquals(2, BinSearch.binSearchR(data, 42, 0, data.length));
     }
 
     @Test
-    void testPath3  () {
+    void testPath3R  () {
         assertEquals(1, BinSearch.binSearchR(data, 2, 0, data.length));
     }
 
     @Test
-    void testPath4  () {
+    void testPath4R  () {
         assertEquals(3, BinSearch.binSearchR(data, 45, 0, data.length));
     }
 
     @Test
-    void testMutant1  () {
+    void testMutant1R  () {
         assertEquals(-1, BinSearch.binSearchR(onecell, 99, 0, onecell.length));
     }
+
+    @Test
+    void testPath1  () {
+        assertEquals(-1, BinSearch.binSearch(emptydata, 99));
+    }
+
+    @Test
+    void testPath2  () {
+        assertEquals(2, BinSearch.binSearch(data, 42));
+    }
+
+    @Test
+    void testPath3  () {
+        assertEquals(1, BinSearch.binSearch(data, 2));
+    }
+
+    @Test
+    void testPath4  () {
+        assertEquals(3, BinSearch.binSearch(data, 45));
+    }
+
+    @Test
+    void testMutant1  () {
+        assertEquals(-1, BinSearch.binSearch(onecell, 99));
+    }
+
+
 
     /*@Test
     void testNoOccurrence() {

@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a815461d-1c14-419f-87b4-7bc12ef68160" name="Changes" comment="Changed tests for border conditions of under and above 18">
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/PITestCoursesTutorial.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/PITestCoursesTutorial.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/PITestBinSearch.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/default/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/default/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/report/mutations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/report/mutations.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/CoursesTutorial/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/CoursesTutorial/StudentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/BinSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/BinSearchTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +73,7 @@
     "JUnit.CoursesTutorial in MutationTestingExampleJava.executor": "Run",
     "JUnit.FindLastTest.executor": "Run",
     "JUnit.LeapYearTest.executor": "Run",
-    "JUnit.StudentTest.executor": "Run",
+    "JUnit.StudentTest.executor": "Coverage",
     "JUnit.StudentTest.isAbove18TestBorder.executor": "Run",
     "JUnit.StudentTest.isUnder18TestBorder.executor": "Run",
     "PIT Runner.PITestBinSeacrh.executor": "Run",
@@ -107,13 +109,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StudentTest">
-    <configuration name="BinSearchTest.testMutant1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="PIT Runner.PITestBinSearch">
+    <configuration name="BinSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MutationTestingExampleJava" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BinSearchTest" />
-      <option name="METHOD_NAME" value="testMutant1" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -180,18 +182,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PITestBinSearch" type="PIT" factoryName="PIT Runner" REPORT_DIR="$PROJECT_DIR$/report" SOURCE_DIRS="$PROJECT_DIR$/src" TARGET_CLASSES="BinSearch" TARGET_TESTS="BinSearchTest" otherParams="--outputFormats XML,HTML --verbose">
-      <module name="MutationTestingExampleJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="JUnit.StudentTest.isAbove18TestBorder" />
       <item itemvalue="JUnit.StudentTest.isUnder18TestBorder" />
-      <item itemvalue="JUnit.BinSearchTest.testMutant1" />
       <item itemvalue="JUnit.CoursesTutorial in MutationTestingExampleJava" />
       <item itemvalue="JUnit.StudentTest" />
+      <item itemvalue="JUnit.BinSearchTest" />
       <item itemvalue="PIT Runner.PITestBinSearch" />
       <item itemvalue="PIT Runner.PITestLeapYear" />
       <item itemvalue="PIT Runner.PITestCalculator" />
@@ -200,11 +196,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BinSearchTest" />
         <item itemvalue="JUnit.StudentTest" />
         <item itemvalue="JUnit.StudentTest.isUnder18TestBorder" />
         <item itemvalue="JUnit.StudentTest.isAbove18TestBorder" />
         <item itemvalue="JUnit.CoursesTutorial in MutationTestingExampleJava" />
-        <item itemvalue="JUnit.BinSearchTest.testMutant1" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +224,7 @@
       <workItem from="1726416124290" duration="54000" />
       <workItem from="1726416245500" duration="3039000" />
       <workItem from="1726476371417" duration="3254000" />
-      <workItem from="1726483200623" duration="4319000" />
+      <workItem from="1726483200623" duration="5654000" />
     </task>
     <task id="LOCAL-00001" summary="Renamed project">
       <option name="closed" value="true" />
@@ -310,7 +306,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726484826438</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Changed tests for border conditions of under and above 18">
+      <option name="closed" value="true" />
+      <created>1726488367894</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1726488367894</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,5 +341,8 @@
       <FILTER>CoursesTutorial.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/MutationTestingExampleJava$FindLastTest.ic" NAME="FindLastTest Coverage Results" MODIFIED="1726418154305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/MutationTestingExampleJava$StudentTest.ic" NAME="StudentTest Coverage Results" MODIFIED="1726488693457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>CoursesTutorial.*</FILTER>
+    </SUITE>
   </component>
 </project>

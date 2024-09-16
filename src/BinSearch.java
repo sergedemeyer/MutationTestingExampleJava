@@ -21,4 +21,19 @@ class BinSearch {
         }
         return -1;
     }
+
+    static public int binSearch(int[] a, int v) {
+        int low = 0;
+        int up = a.length;
+
+        while (low < up) {
+            int mid = low + ((up - low) / 2);
+            if (v == a[mid]) { return mid;
+            } else if (v < a[mid]) { up = mid;
+            } else { low = mid + 1; }
+        }
+        return -1;
+    }
+
+
 }

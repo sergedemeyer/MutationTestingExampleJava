@@ -13,21 +13,21 @@ class SelectionSortTest {
     void testSorted  () {
         int [] copy = sorted;
         SelectionSort.sort(copy);
-        assertTrue(Arrays.equals(sorted, copy));
+        assertArrayEquals(sorted, copy);
     }
 
     @Test
     void testReverseSorted  () {
         int [] copy = reversesorted;
         SelectionSort.sort(copy);
-        assertTrue(Arrays.equals(sorted, copy));
+        assertArrayEquals(sorted, copy);
     }
 
     @Test
     void testDoubles  () {
         int [] copy = doubles;
         SelectionSort.sort(copy);
-        assertTrue(Arrays.equals(new int[]{1, 2, 45, 45, 63}, copy));
+        assertArrayEquals(new int[]{1, 2, 45, 45, 63}, copy);
     }
 
 }

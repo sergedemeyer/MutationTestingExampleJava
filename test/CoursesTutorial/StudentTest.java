@@ -17,14 +17,20 @@ public class StudentTest {
     }
 
     @Test
-    public void isUnder18TestDirect() {
-        Student student = new Student("Sema", "Altinisik", LocalDate.parse("2010-01-01"));
+    public void isUnder18TestBorder() {
+        LocalDate ld = LocalDate.now();
+        ld = ld.minusYears(18).plusDays(1);
+        Student student = new Student("Sema", "Altinisik",
+                ld);
         assertFalse(student.isUnderAge());
     }
 
     @Test
-    public void isAbove18TestDirect() {
-        Student student = new Student("Sema", "Altinisik", LocalDate.parse("2004-01-01"));
+    public void isAbove18TestBorder() {
+        LocalDate ld = LocalDate.now();
+        ld = ld.minusYears(18);
+        Student student = new Student("Sema", "Altinisik",
+                ld);
         assertTrue(student.isUnderAge());
     }
 
